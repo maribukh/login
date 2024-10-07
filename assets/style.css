@@ -164,6 +164,9 @@ img {
     top              : 3px;
 }
 
+.forgot-password {
+    width: 410px ;
+}
 .forgot-password ul {
     display: flex;
     align-items: center;
@@ -176,10 +179,11 @@ img {
 .forgot-password li {
     display: flex;
     align-items: center;
-    margin-right: 110px;
+    margin-right: 210px;
     font-family: Nunito Sans;
 font-size: 14px;
 font-weight: 400;
+text-wrap:nowrap;
 line-height: 22px;
 text-align: left;
 
