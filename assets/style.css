@@ -165,40 +165,98 @@ img {
 }
 
 .forgot-password {
-    width: 410px ;
+    width: 410px;
 }
+
 .forgot-password ul {
-    display: flex;
+    display    : flex;
     align-items: center;
-    padding: 0;
-    margin: 0;
-    width: 100%;
+    padding    : 0;
+    margin     : 0;
+    width      : 100%;
 
 }
 
 .forgot-password li {
-    display: flex;
-    align-items: center;
-    margin-right: 210px;
-    font-family: Nunito Sans;
-font-size: 14px;
-font-weight: 400;
-text-wrap:nowrap;
-line-height: 22px;
-text-align: left;
+    display     : flex;
+    align-items : center;
+    margin-right: 160px;
+    font-family : Nunito Sans;
+    font-size   : 14px;
+    font-weight : 400;
+    text-wrap   : nowrap;
+    line-height : 22px;
+    text-align  : left;
 
-cursor           : pointer;
-color: #8E8E8E;
+    cursor: pointer;
+    color : #8E8E8E;
 }
 
 
 .forgot-password span {
-margin-left: 5px;
+    margin-left: 5px;
 }
+
 .checkbox {
-    width: 15px;
-    height: 15px;
-    border-radius: 2px;
+    width           : 15px;
+    height          : 15px;
+    border-radius   : 2px;
     background-color: #C4C4C4;
-    margin-right: 10px;
+    margin-right    : 10px;
+}
+
+.text-2 {
+    width : 143px;
+    height: 25px;
+
+    font-family: Nunito Sans;
+    font-size  : 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align : left;
+
+
+}
+
+.login-button {
+    width: 399px;
+height: 70px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+cursor           : pointer;
+
+border-radius: 6px;
+background-color: #0A2FB6;
+
+box-shadow: 0px 4px 30px 0px #263A4326;
+
+}
+
+.login-button a {
+    all: unset;
+    display: flex;
+    width: 56px;
+    height: 31px;
+    
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: left;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+
+    cursor           : pointer;
+    
+    color: white;
+    background-color: #0A2FB6;
+}
+
+.login-button a span {
+    text-transform: capitalize;
+ 
 }
