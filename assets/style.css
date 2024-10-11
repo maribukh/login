@@ -15,7 +15,7 @@ body {
 
     display         : flex;
     justify-content : center;
-    background-color: #FFFFFE;
+    background-image: linear-gradient(to right, #FFFFFE 65%, #0A2FB6 35%);
     width           : 1440px;
     height          : 900px;
 
@@ -32,6 +32,24 @@ body {
 
 }
 
+.logo {
+    width: 78px;
+height: 35px;
+position: absolute;
+left: 48px;
+top: 33px;
+font-family: Roboto;
+font-size: 30px;
+font-weight: 700;
+line-height: 35px;
+text-align: left;
+
+text-transform:uppercase;
+
+color: #0A2FB6;
+
+
+}
 .login-title {
     width : 454px;
     height: 120px;
@@ -105,6 +123,7 @@ li {
     width  : 400px;
     height : 70px;
     padding: 22px 277px 22px 16px;
+
     background-color: white;
     border          : 0.6px solid #B1B1B1;
     border-radius   : 5px 5px;
@@ -291,26 +310,14 @@ img {
     align-items    : center;
 
 }
-
-
-.right-side {
-    background-image: url(/assets/images/design.svg);
-    width           : 100%;
-    height          : 100%;
-
-    background-size  : contain;
-    background-repeat: no-repeat;
-}
-
-
 .main-pic {
-    width        : 100%;
-    height       : 739px;
+    width        : 655px;
+    height       : 740px;
     border-radius: 20px;
 
     position: absolute;
-    top     : 120px;
-    right   : 70px;
+    top     : 160px;
+    right   : 108px;
 
     background-image : url(./images/children.jpg);
     background-repeat: no-repeat;
